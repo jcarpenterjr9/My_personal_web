@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(193, 147, 236);
+    box-sizing: border-box;
+    height: 100px;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+
+}
+.name,.links{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+a{
+    color: black;
+    margin: 5px;
+}
+body{
+    padding: 100px 24px 96px;
+    background-color: #f0e6ff;
+}
+h1,.homequote{
+    text-align: center;
+}
+div{
+    box-sizing: content-box;
+    box-sizing: border-box;
+}
+.johndoe{
+    float: inline-start;
+    padding: 10px;
+    height: 300px;
+}
+.homequote{
+    font-style: italic;
+    margin-top: 400px;
+    font-size: 50px;
+}
+.aboutheader{
+    font-size: 50px;
+}
+.bball, .gaming, .artist{
+    font-size: 35px;
+}
+.about{
+    font-size: 20px;
+}
+section{
+    border-top: 1px solid;
+    height: 350px;
+}
+.lbj, .ps5, .art{
+    float: inline-end;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    height: 200px;
+}
+.portfheader{
+    font-size: 40px;
+}
+.parent{
+    display: grid;
+    font-size: 30px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto ;
+}
+.p1, .p2, .p3{
+    grid-column: 1 / 2;
+    margin-bottom: 5px;
+}
+.p4{
+    margin-left: 20px;
+grid-row: 1 / 4;
+grid-column: 2 / 4;
+}
+.p1, .p2, .p3, .p4{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background-color: rgb(193, 147, 236);
+    max-height: fit-content
+    
+    ;
+}
+.gridheader{
+    margin-top: 1px;
+    margin-left: 5px;
+    border-bottom: 1px solid;
+}
+.projectimg{
+    height: 150px;
+    float: inline-end;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.projectimg4a, .projectimg4b{
+    margin: 5px;
+}
+.projectimg4a{
+    height: 400px;
+    float: inline-start;
+}
+.projectimg4b{
+    height: 300px;
+    float: inline-end;
+}
+.projectdesc{
+font-size: 20px;
+margin-left: 5px;
+margin-right: 5px;
+    
+}
